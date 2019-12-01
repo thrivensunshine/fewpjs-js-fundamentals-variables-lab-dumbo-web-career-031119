@@ -1,6 +1,6 @@
 const sinon = require( 'sinon' )
 
-describe('index.js', function () {
+describe('index', function () {
   describe('companyName', function () {
     it('is set as Scuber', function () {
       expect(companyName).to.equal('Scuber');
