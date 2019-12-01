@@ -1,15 +1,15 @@
 const sinon = require( 'sinon' )
 
-// describe('index.js', function () {
-//   describe('companyName', function () {
-//     it('is set as Scuber', function () {
-//       expect(companyName).to.equal('Scuber');
-//     });
+describe('index.js', function () {
+  describe('companyName', function () {
+    it('is set as Scuber', function () {
+      expect(companyName).to.equal('Scuber');
+    });
 
-//     it('is defined as a const', function () {
-//       expect(js).to.match(/const companyName/, "Expected companyName to be a const");
-//     });
-//   });
+    it('is defined as a const', function () {
+      expect(js).to.match(/const companyName/, "Expected companyName to be a const");
+    });
+  });
 
   describe('mostProfitableNeighborhood', function () {
     it('is declared as equal to Chelsea', function () {
